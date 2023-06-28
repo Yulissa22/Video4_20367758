@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Video4_20367758.MainPage">
+
+    <StackLayout>
+        <!--Colocamos un tamaño de fuente mediano y alineamos la etiqueta al centro.-->
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <Label.FormattedText>
+                <!--Nos permite presentar texto con diferentes fuentes y colores en la misma vista.-->
+                <FormattedString>
+                    <!--Permite colocar espacios de textos con un formato y estilo especifico.-->
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold"
+                          TextColor="DarkKhaki">Programación orientada a objetos</Span>
+
+                    <Span FontAttributes="Italic" TextColor="Moccasin">Es un paradigma de la programación</Span>
+
+                    <Span TextColor="Tomato" TextDecorations="Underline">Que nos ayuda a obtener mejores resultados...</Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
